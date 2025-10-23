@@ -1,1 +1,1 @@
-"# Tourism" 
+This fully responsive tourism website, built with HTML, CSS, and JavaScript (including jQuery), provides an interactive user experience. Key features include a dark/light mode toggle with localStorage persistence, a 3D card carousel, and distinct sections for events and tours. Modern animations, an interactive navbar, and a contact form.
