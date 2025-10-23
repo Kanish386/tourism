@@ -1,0 +1,244 @@
+/* mobile responsiveness design */
+@media screen and (max-width: 990px) {
+  .contact_us {
+    flex-direction: column;
+    width: 100%;
+  }
+  form,
+  .cbox {
+    margin: auto;
+    margin-bottom: 30px;
+  }
+}
+@media screen and (max-width: 1130px) {
+  .menu-btn {
+    display: block;
+  }
+
+  .navbar {
+    padding: 45px;
+    background: rgba(86, 143, 135, 0.85);
+  }
+
+  .logo {
+    position: absolute;
+    top: 30px;
+    left: 15px;
+    color: #FFF5F2;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    background: #568f87;
+    margin-top: -900px;
+    transition: all 0.5s ease;
+  }
+
+  .mobile-menu {
+    margin-top: 602px;
+    border-bottom-right-radius: 30%;
+  }
+
+  .nav-links li {
+    margin: 30px auto;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .containerx {
+    top: 40%;
+    bottom: 40%;
+    transform-style: preserve-3d;
+  }
+
+  #about_us div {
+    padding: 10px;
+    display: block;
+    align-items: normal;
+  }
+
+  .cards {
+    position: relative;
+    width: 90vw;
+    height: 100%;
+  }
+
+  #about-quad {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  /*events*/
+  .row {
+    flex-direction: column;
+  }
+
+  .row .col {
+    margin: 20px auto;
+  }
+
+  .col img {
+    max-width: 90%;
+  }
+
+  /*explore*/
+  .explore-content {
+    width: 100%;
+    text-align: center;
+  }
+
+  .explore-content h1 {
+    color: #064232;
+  }
+
+  .explore-content p {
+    color: #FFF5F2;
+  }
+
+  .explore-content .ctn {
+    background: #568f87;
+    color: #FFF5F2;
+  }
+
+  /*tours*/
+  .tours {
+    width: 100%;
+  }
+
+  /*footer*/
+  .footer {
+    padding: 10px;
+    background: #064232;
+  }
+  .content-col {
+    width: 100%;
+    color: #064232;
+  }
+  #about_us p {
+    width: 70%;
+    color: #064232;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  #about_us p {
+    width: 85%;
+    padding-top: 7em;
+    margin: auto;
+  }
+  form,
+  .cbox {
+    width: 90%;
+  }
+  .ctn {
+    margin: auto;
+  }
+
+  .explore-content {
+    margin: 0 auto;
+    text-align: center;
+    width: 80%;
+  }
+
+  .explore-content .ctn {
+    margin: 40px auto;
+  }
+}
+@media screen and (max-width: 600px) {
+  #about_us p {
+    margin: auto;
+  }
+}
+@media screen and (max-width: 470px) {
+  .ctn {
+    padding: 13px 25px;
+  }
+  .c_boxx a p {
+    font-size: 17.5px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .ctn {
+    padding: 13px 25px;
+  }
+  .c_boxx a p {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 850px) {
+  .content-col {
+    text-align: center;
+    color: #064232;
+  }
+  .content-col .line {
+    margin: 0.5rem auto;
+    background: #F5BABB;
+  }
+  .content-col .ctn {
+    margin: 0 auto;
+    position: inherit;
+    background: #568f87;
+    color: #FFF5F2;
+  }
+  .content-col p {
+    max-width: 75%;
+    text-align: justify;
+    color: #568f87;
+  }
+}
+@media (max-width: 500px) {
+  .content-col p {
+    max-width: 100%;
+    text-align: justify;
+    color: #568f87;
+  }
+}
+@media (max-width: 600px) {
+  .content-col .ctn {
+    margin: 0 auto;
+    position: inherit;
+    background: #568f87;
+    color: #FFF5F2;
+  }
+}
+@media (max-width: 350px) {
+  .content-col .ctn {
+    margin: 0 auto;
+    position: inherit;
+    background: #568f87;
+    color: #FFF5F2;
+    font-size: 14px;
+  }
+}
+@media (max-width: 990px) {
+  .content-col .ctn {
+    margin: 0 auto;
+    position: inherit;
+    background: #568f87;
+    color: #FFF5F2;
+    font-size: 16px;
+  }
+}
+@media (max-width: 1440px) {
+  .content-col .ctn {
+    margin: 0 auto;
+    position: inherit;
+    background: #568f87;
+    color: #FFF5F2;
+    font-size: 18px;
+  }
+}
+@media (max-width: 1800px) {
+  .content-col .ctn {
+    margin: 0 auto;
+    position: inherit;
+    background: #568f87;
+    color: #FFF5F2;
+    font-size: 20px;
+  }
+}
